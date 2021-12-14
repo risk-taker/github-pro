@@ -1,0 +1,36 @@
+.img {
+    margin-right: 1rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragraph {
+    margin-top: 1rem;
+    color: #999393;
+    line-height: 1.6rem;
+    font-size: small;
+    text-align: center;
+}
+
+.button {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: #0077FF;
+    color: #FFFFFF;
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-left: 6rem;
+    font-size: large;
+}
+
+.link {
+    margin-top: 2rem;
+    text-align: center;
+}

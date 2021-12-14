@@ -1,0 +1,74 @@
+.addnewrepomask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.addNewRepoBody {
+    width: 20%;
+    max-width: 500px;
+    background: #1d1d1d;
+    border-radius: 20px;
+    position: relative;
+    padding: 1rem;
+    padding-left: 1.5rem;
+}
+
+.cross {
+    background: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 13px;
+    right: 14px;
+    cursor: pointer;
+}
+
+.heading {
+    color: #707070;
+    font-size: large;
+}
+
+.owner {
+    color: #999393;
+    margin-top: 10px;
+    font-size: small;
+
+}
+
+.textbox {
+    font-size: large;
+    outline: none;
+    border: none;
+    background-color: #2D2B2B;
+    padding: 5px;
+    padding-right: 3rem;
+    color: #999393;
+    margin-top: 4px;
+}
+
+.btnCenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.addbtn {
+    outline: none;
+    border: none;
+    background: #329054;
+    padding: 6px 12px;
+    font-size: large;
+    border-radius: 31px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
